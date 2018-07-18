@@ -35,11 +35,6 @@ const command = async (file, cmd) => {
 const buildLoaderOptions = (jsonSchema, verbose) => {
     const options = {
         resolve: true,
-        cache: [],
-        externals: [],
-        externalRefs: {},
-        rewriteRefs: true,
-        status: 'undefined',
         filters: [],
         verbose,
     };
