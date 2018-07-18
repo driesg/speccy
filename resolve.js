@@ -24,11 +24,11 @@ const command = async (file, cmd) => {
                 console.error('Failed to write file: ' + err.message);
                 process.exit(1);
             }
-
             if (verbose) console.log('Resolved to ' + output);
         });
         return;
     }
+
     console.log(content);
 };
 
